@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		87C4BBF61C333B8D00D26548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BBF51C333B8D00D26548 /* main.m */; };
 		87C4BBF91C333B8D00D26548 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BBF81C333B8D00D26548 /* AppDelegate.m */; };
-		87C4BBFC1C333B8D00D26548 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BBFB1C333B8D00D26548 /* ViewController.m */; };
+		87C4BBFC1C333B8D00D26548 /* ImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BBFB1C333B8D00D26548 /* ImportViewController.m */; };
 		87C4BBFF1C333B8D00D26548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C4BBFD1C333B8D00D26548 /* Main.storyboard */; };
 		87C4BC021C333B8D00D26548 /* ChicagoTransitDataImport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BC001C333B8D00D26548 /* ChicagoTransitDataImport.xcdatamodeld */; };
 		87C4BC041C333B8D00D26548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C4BC031C333B8D00D26548 /* Assets.xcassets */; };
 		87C4BC071C333B8D00D26548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C4BC051C333B8D00D26548 /* LaunchScreen.storyboard */; };
+		87C4BC101C333BCE00D26548 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BC0F1C333BCE00D26548 /* Store.m */; };
+		87C4BC121C333DA500D26548 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C4BC111C333DA500D26548 /* UIKit.framework */; };
+		87C4BC151C333DCC00D26548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C4BC141C333DCC00D26548 /* Foundation.framework */; };
+		87C4BC171C333DD100D26548 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C4BC161C333DD100D26548 /* CoreGraphics.framework */; };
+		87C4BC191C333DD500D26548 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C4BC181C333DD500D26548 /* CoreData.framework */; };
+		87C4BC1D1C333F5E00D26548 /* ImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BC1C1C333F5E00D26548 /* ImportOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +27,22 @@
 		87C4BBF51C333B8D00D26548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87C4BBF71C333B8D00D26548 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87C4BBF81C333B8D00D26548 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87C4BBFA1C333B8D00D26548 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87C4BBFB1C333B8D00D26548 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87C4BBFA1C333B8D00D26548 /* ImportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportViewController.h; sourceTree = "<group>"; };
+		87C4BBFB1C333B8D00D26548 /* ImportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportViewController.m; sourceTree = "<group>"; };
 		87C4BBFE1C333B8D00D26548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C4BC011C333B8D00D26548 /* ChicagoTransitDataImport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChicagoTransitDataImport.xcdatamodel; sourceTree = "<group>"; };
 		87C4BC031C333B8D00D26548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87C4BC061C333B8D00D26548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87C4BC081C333B8D00D26548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C4BC0E1C333BCE00D26548 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		87C4BC0F1C333BCE00D26548 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		87C4BC111C333DA500D26548 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87C4BC141C333DCC00D26548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87C4BC161C333DD100D26548 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87C4BC181C333DD500D26548 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87C4BC1A1C333E8900D26548 /* ChicagoTransitDataImport.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoTransitDataImport.pch; sourceTree = "<group>"; };
+		87C4BC1B1C333F5E00D26548 /* ImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportOperation.h; sourceTree = "<group>"; };
+		87C4BC1C1C333F5E00D26548 /* ImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C4BC191C333DD500D26548 /* CoreData.framework in Frameworks */,
+				87C4BC171C333DD100D26548 /* CoreGraphics.framework in Frameworks */,
+				87C4BC151C333DCC00D26548 /* Foundation.framework in Frameworks */,
+				87C4BC121C333DA500D26548 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				87C4BBF31C333B8D00D26548 /* ChicagoTransitDataImport */,
+				87C4BC131C333DAD00D26548 /* Frameworks */,
 				87C4BBF21C333B8D00D26548 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,14 +82,18 @@
 			children = (
 				87C4BBF71C333B8D00D26548 /* AppDelegate.h */,
 				87C4BBF81C333B8D00D26548 /* AppDelegate.m */,
-				87C4BBFA1C333B8D00D26548 /* ViewController.h */,
-				87C4BBFB1C333B8D00D26548 /* ViewController.m */,
+				87C4BC0E1C333BCE00D26548 /* Store.h */,
+				87C4BC0F1C333BCE00D26548 /* Store.m */,
+				87C4BBF41C333B8D00D26548 /* Supporting Files */,
+				87C4BBFA1C333B8D00D26548 /* ImportViewController.h */,
+				87C4BBFB1C333B8D00D26548 /* ImportViewController.m */,
 				87C4BBFD1C333B8D00D26548 /* Main.storyboard */,
+				87C4BC1B1C333F5E00D26548 /* ImportOperation.h */,
+				87C4BC1C1C333F5E00D26548 /* ImportOperation.m */,
 				87C4BC031C333B8D00D26548 /* Assets.xcassets */,
 				87C4BC051C333B8D00D26548 /* LaunchScreen.storyboard */,
 				87C4BC081C333B8D00D26548 /* Info.plist */,
 				87C4BC001C333B8D00D26548 /* ChicagoTransitDataImport.xcdatamodeld */,
-				87C4BBF41C333B8D00D26548 /* Supporting Files */,
 			);
 			path = ChicagoTransitDataImport;
 			sourceTree = "<group>";
@@ -78,8 +102,21 @@
 			isa = PBXGroup;
 			children = (
 				87C4BBF51C333B8D00D26548 /* main.m */,
+				87C4BC1A1C333E8900D26548 /* ChicagoTransitDataImport.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87C4BC131C333DAD00D26548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C4BC181C333DD500D26548 /* CoreData.framework */,
+				87C4BC161C333DD100D26548 /* CoreGraphics.framework */,
+				87C4BC141C333DCC00D26548 /* Foundation.framework */,
+				87C4BC111C333DA500D26548 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			path = ChicagoTransitDataImport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C4BBFC1C333B8D00D26548 /* ViewController.m in Sources */,
+				87C4BBFC1C333B8D00D26548 /* ImportViewController.m in Sources */,
 				87C4BC021C333B8D00D26548 /* ChicagoTransitDataImport.xcdatamodeld in Sources */,
 				87C4BBF91C333B8D00D26548 /* AppDelegate.m in Sources */,
+				87C4BC101C333BCE00D26548 /* Store.m in Sources */,
+				87C4BC1D1C333F5E00D26548 /* ImportOperation.m in Sources */,
 				87C4BBF61C333B8D00D26548 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ChicagoTransitDataImport/ChicagoTransitDataImport.pch;
 				INFOPLIST_FILE = ChicagoTransitDataImport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.agentten.ChicagoTransitDataImport;
@@ -278,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ChicagoTransitDataImport/ChicagoTransitDataImport.pch;
 				INFOPLIST_FILE = ChicagoTransitDataImport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.agentten.ChicagoTransitDataImport;
